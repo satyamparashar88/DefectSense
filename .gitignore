@@ -1,0 +1,29 @@
+
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.env
+.env.*
+!.env.example
+.ipynb_checkpoints/
+
+# Dataset and trained model artifacts
+data/*
+!data/.gitkeep
+models/*
+!models/.gitkeep
+
+# Generated results
+results/*
+!results/.gitkeep
+
+# Training outputs
+runs/
+
+# Keep the YOLOv8 baseline checkpoint local
+/models/best.pt
+
+# Model checkpoints - keep locally, do not upload
+/models/*.pt
+/models/*.pth

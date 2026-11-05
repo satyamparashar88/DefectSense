@@ -1,0 +1,8 @@
+rfdetr
+fastapi
+uvicorn[standard]
+streamlit
+pillow
+numpy
+python-multipart
+requests
